@@ -1,0 +1,12 @@
+fastapi
+flask
+streamlit
+pandas
+plotly
+scikit-learn
+openai
+huggingface_hub
+google-generativeai
+python-dotenv
+pytest
+uvicorn
