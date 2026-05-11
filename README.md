@@ -16,7 +16,7 @@ A real-time cloud security monitoring system built for our Computer Engineering 
 | Khalid Abdi Mohamed | Project Leader & Dashboard |
 | Rahma Ahmed Hussien | Documentation & Design |
 | Mohamed Abshir Jama | Backend & Database |
-| Mohamed Mohamud Shible | Detection Engine & AI |
+| Mohamud Yusuf Said  | Detection Engine & AI |
 
 ## 🛠️ Tech Stack
 - Python, Streamlit, FastAPI
