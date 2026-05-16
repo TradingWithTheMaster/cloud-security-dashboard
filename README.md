@@ -1,4 +1,4 @@
-# 🛡️ CloudGuard — Cloud Security Monitoring Dashboard
+# 🛡️ CloudGuard Cloud Security Monitoring Dashboard
 
 A real-time cloud security monitoring system we built as our Computer Engineering 
 graduation project at **OSTİM Technical University**.
