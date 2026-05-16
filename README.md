@@ -1,36 +1,50 @@
-# 🛡️ Cloud Security Log Monitoring & Alerting Dashboard
+# 🛡️ CloudGuard — Cloud Security Monitoring Dashboard
 
-A real-time cloud security monitoring system built for our Computer Engineering graduation project at **OSTİM Technical University**.
+A real-time cloud security monitoring system we built as our Computer Engineering 
+graduation project at **OSTİM Technical University**.
 
-## 🚀 Features
-- 📊 Real-time security dashboard built with Streamlit
-- 🔍 Rule-based threat detection (Brute Force, Suspicious IPs, System Anomalies)
-- 🤖 AI-powered log analysis using Google Gemini
-- 📱 Telegram bot alerts for real-time threat notifications
-- 📈 Statistical anomaly detection using Z-score analysis
-- 🗄️ Cloud database storage with Supabase
+The idea came from a simple problem: tools like Splunk and IBM QRadar are great 
+but cost thousands of dollars a month. We wanted to build something that actually 
+works, costs nothing, and any small company could set up in minutes.
+
+## 🚀 What it does
+
+- Real-time security dashboard built with Streamlit
+- Detects brute force attacks, suspicious IPs, and system anomalies automatically
+- Uses Google Gemini AI to summarize threats in plain English
+- Sends instant Telegram alerts when something suspicious is detected
+- Z-score statistical analysis to catch unusual activity patterns
+- Everything stored in Supabase (PostgreSQL) in the cloud
 
 ## 👥 Team
+
 | Name | Role |
 |------|------|
-| Khalid Abdi Mohamed | Project Leader & Dashboard |
-| Rahma Ahmed Hussien | Documentation & Design |
+| Khalid Abdi Mohamed | Project Leader & Dashboard Development |
 | Mohamed Abshir Jama | Backend & Database |
-| Mohamud Yusuf Said  | Detection Engine & AI |
+| Rahma Ahmed Hussien | Documentation & Design |
+
+**Advisor:** Dr. Metin Balcı
 
 ## 🛠️ Tech Stack
-- Python, Streamlit, FastAPI
+
+- Python, Streamlit
 - Supabase (PostgreSQL)
 - Google Gemini AI
 - Telegram Bot API
 - Plotly, Pandas
 
-## ⚙️ Setup
+## ⚙️ Getting Started
+
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
-3. Create a `.env` file with your API keys
-4. Run simulator: `python simulator/log_generator.py`
-5. Launch dashboard: `python -m streamlit run dashboard/app.py`
+3. Create a `.env` file with your API keys (see `.env.example`)
+4. Start the log simulator: `python simulator/log_generator.py`
+5. Launch the dashboard: `python -m streamlit run dashboard/app.py`
+
+## 📄 Paper
+
+Our research paper is published and available here:
+- **Zenodo (DOI):** https://doi.org/10.5281/zenodo.20244898
 
 ## 🏫 OSTİM Technical University — Computer Engineering 2026
-**Advisor:** Dr. Metin Balcı
